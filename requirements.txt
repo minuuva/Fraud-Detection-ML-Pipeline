@@ -1,0 +1,7 @@
+duckdb==1.2.2
+google-cloud-bigquery==3.32.0
+google-cloud-bigquery-storage==2.31.0
+pandas==2.2.3
+polars==1.29.0
+scikit-learn==1.5.1
+xgboost==3.0.0
