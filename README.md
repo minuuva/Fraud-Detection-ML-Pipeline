@@ -26,28 +26,6 @@ The pipeline:
 
 ---
 
-## 📂 Project Structure
-fraud-detection-ml-pipeline/ 
-├── data/ 
-│ ├── features_raw.parquet 
-│ ├── features_eng.parquet 
-│ └── bank_transactions.csv 
-├── models/ 
-│ └── fraud_xgb.json 
-├── notebooks/ 
-│ └── 01_train_xgb.ipynb 
-├── sql/ 
-│ └── [saved EDA queries].sql 
-├── src/ 
-│ └── data/ 
-│ ├── build_features.py 
-│ └── pull_bigquery.py 
-├── bqgrid.json # (credentials excluded from repo) 
-├── requirements.txt 
-└── README.md 
-
----
-
 ## 🛠 Tech Stack
 
 - **BigQuery** – data warehousing
